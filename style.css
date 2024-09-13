@@ -1,0 +1,436 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Poppins;
+
+}
+
+
+/* Header */
+
+.headerbox{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #003366;
+}
+
+.header{
+    width: 80%;
+    margin: 0.7rem 2rem;
+    background-color: white;
+    border-radius: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* Logo */
+
+.logo{
+    padding-left: 0.9rem;
+    height: 50px;
+    
+}
+
+.logo>img{
+    height: 40px;
+    padding-top: 0.5rem;
+}
+
+/* Header Menuu */
+
+.menu{
+
+}
+
+.menu>li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 1.1rem;
+}
+
+/* Button */
+
+.headerbutton>button{
+    
+}
+
+.headerbutton>button{
+    color: white;
+    font-weight: 500;
+    background-color: #FF5003;
+    margin: 0.5rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 2rem;
+
+}
+
+
+/* Hero Section */
+
+.herosection{
+    background-color: #003366;
+    display: flex;
+    height: 490px;
+    
+
+}
+.hheading{
+    color: white;
+    font-size: 2.5rem;
+    padding: 5rem ;
+    
+
+}
+
+/* Hero Buttons */
+
+.buttonhero{
+    display: flex;
+    margin: 0 5rem;
+    gap: 1rem;
+    border-radius: 2rem;
+    
+}
+
+.btnh1>button{
+    background-color: #FF5003;
+    color: white;
+    font-weight: medium;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.6rem;
+    
+}
+
+.btnh2>button{
+    background-color: #003366;
+    color: white;
+    font-weight: medium;
+    border: 1px solid ;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    
+}
+
+/* Side Image */
+
+.sideimg{
+
+    position: absolute ;
+    background-color: red;
+    
+    
+
+}
+
+.sideimg>img{
+    
+}
+
+
+/* Find The Right Teacher */
+
+.headingfind{
+    margin: 5rem;
+    text-align: center;
+
+}
+
+.hf{
+    color: #FF5003;
+    font-size: 2.5rem;
+}
+
+.pf{
+    color: #003366;
+}
+
+
+
+/* Second section Find The Right Teacher */
+.MAINSECOND{
+    display: flex;
+    justify-content: center;
+
+}
+
+.secondsection{
+    display: flex;
+    width: 70%;
+}
+
+.testimonials{
+    padding: 6rem;
+}
+
+.testimonialh{
+    font-size: 1.7rem;
+    color: #003366;
+    font-weight: 500;
+}
+
+.testimonialpp{
+    color: #FF5003;
+}
+
+.testimonialhp{
+    color: #003366;
+    font-weight: 400;
+}
+
+/* Anumbers & Analytics */
+
+.number{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #00336673;
+    border-radius: 1rem;
+    width: 80%;
+    margin: 4rem auto;
+
+}
+
+.fourdivs{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    width: 80%;
+    gap: 3rem;
+    
+}
+
+.ex{
+    border-right: 1px solid #FF5003;
+    padding: 0rem 2rem;
+    margin: 0.9rem 0 ;
+}
+
+.et{
+    /* scroll-padding-top: 1rem; */
+    /* background-color: red; */
+    margin: 1rem;
+
+}
+
+
+.hn{
+    color: #FF5003;
+}
+
+
+
+/* Choose The Option For Your Education */
+
+.choosemain{
+    background-color: #F2F8F1;
+    padding: 2rem 0 0 0 ;
+}
+
+.chooseheading{
+    text-align: center;
+    color: #003366;
+    font-size: 55px;
+}
+
+
+/* Blue an dOrange Cards */
+
+
+.firstfourrows{
+    display: flex;
+    gap: 0.5rem;
+    border: 1px;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 90%;
+    
+
+}
+
+.bluebg{
+    background-color: #003366;
+    border-radius: 0.5rem;
+    padding: 1rem ;
+
+}
+
+.uppersection{
+    display: flex;
+    
+
+}
+
+.headingupper{
+    font-size: 1.9rem;
+    color: white;
+}
+
+
+.orangebg{
+    background-color: #FF5003;
+    border-radius: 0.5rem;
+    padding: 1rem ;
+}
+
+.lowerp{
+    color: white;
+    font-weight: 400;
+}
+
+
+
+/* Second Four Rows */
+
+.secondfourrows{
+    display: flex;
+    gap: 0.5rem;
+    border: 1px;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 90%;
+}
+
+
+
+/* Image with 4 colums */
+
+.sdimage>img{
+    height: 42rem;
+
+}
+ .imgw4clms{
+    display: flex;
+ }
+
+
+ .uperclms{
+    /* display: flex; */
+    /* padding: 0 1rem; */
+ }
+
+ .orangebackground{
+    background-color: #FF5003;
+    padding: 3rem ;
+    height: 15rem;
+ }
+
+ .bluebackground{
+    background-color: #003366;
+    padding: 3rem ;
+    height: 15rem;
+
+ }
+
+ .uprheading{
+    color: white;
+
+ }
+
+ .uperp{
+    color: white;
+    
+    }
+
+ }
+
+
+
+ .lowerclms{
+    /* display: flex;
+    flex-direction: column-reverse; */
+ }
+ .container{
+    display: flex;
+    /* align-items:center;   */
+ }
+
+ /* Student Develpoment Section */
+
+ .STUDENTDEVELOPMENTSECTION{
+    background-image: url(/Assets/Images/Student\ Development.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+ }
+
+
+ .sdh{
+    color: white;
+    padding: 3rem ;
+    text-align: center;
+    font-size: 2.3rem;
+ }
+
+
+ /* Our Team  */
+
+ .headingsection{
+    padding: 3rem;
+    
+
+ }
+
+ .headingsection>p{
+    text-align: center;
+    
+
+ }
+
+ .th{
+    color: #003366;
+    text-align: center;
+
+ }
+
+ /* Team Pics */
+ 
+ .teampics{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    
+ }
+
+
+ /* Team Third Section */
+
+ .upersectionteam{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 10rem;
+    
+
+ }
+
+ .box1>img{
+    margin: auto;
+    display: flex;
+
+ }
+
+ .headingtt{
+    color: #59514F;
+    text-align: center;
+ }
+
+ .box2>img{
+    margin: auto;
+    display: flex;
+
+ }
+
+ .headingtt{
+    color: #59514F;
+    text-align: center;
+ }
+
+
+ /* Lower Section */
+
+ .lowersectionteam{
+ 
