@@ -413,6 +413,10 @@
 
  }
 
+ .box1>p{
+    text-align: center;
+ }
+
  .headingtt{
     color: #59514F;
     text-align: center;
@@ -421,7 +425,12 @@
  .box2>img{
     margin: auto;
     display: flex;
+    
 
+ }
+
+.box2>p{
+    text-align: center;
  }
 
  .headingtt{
@@ -432,5 +441,334 @@
 
  /* Lower Section */
 
- .lowersectionteam{
- 
+.secondsection{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 12rem;
+ }
+
+ .box3>img{
+    margin: auto;
+    display: flex;
+
+ }
+
+ .box3>p{
+    text-align: center;
+ }
+
+ .headingtt{
+    color: #59514F;
+    text-align: center;
+ }
+
+ .box4>img{
+    margin: auto;
+    display: flex;
+    
+
+ }
+
+.box4>p{
+    text-align: center;
+ }
+
+ .headingtt{
+    color: #59514F;
+    text-align: center;
+ }
+
+ /* Newsletter Section */
+
+ .newsletter{
+    background-color: #003366;
+    margin: 4rem 0 0 0 ;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .newsleft{
+    padding: 2rem 12rem;
+ }
+
+ .newsp1{
+    font-weight: 300;
+    color: white;
+    line-height: 2rem;
+    width: 100%;
+ }
+
+ .newsetterheading{
+    color: white;
+ }
+
+ /* Newsright */
+
+ .newsright{
+    padding: 8rem 12rem 0 0 ;
+ }
+
+ .form{
+    width: 20rem;
+    height: 3rem;
+    position: relative;
+    border-radius: 0.5rem ;
+    
+ }
+
+ .formbutton{
+    position: absolute;
+    color: black;
+    background-color: #FF5003;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border-color: white;
+    right: 15%;
+    margin: 0.4rem 0;
+ }
+
+
+ /* Where Are We  */
+
+ .wherearewe{
+    margin: 2rem 0;
+    display: flex;
+ }
+
+ .whereleft{
+    background-color: #FF5003;
+    padding: 8rem 2rem;
+    color: white;
+    max-height: 17.9rem ;
+ }
+
+
+ /* Footer */
+
+ .footerContainer{
+    background-color: #003366;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0 ;
+ }
+ .footerWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 1rem 3rem ;
+    width: 100%;
+ }
+.footertitle > h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+.footerLinks{
+display: flex;
+gap:4rem;
+color: white;
+}
+.copyRight{
+    background-color: #FF5003;
+    display: flex;
+    justify-content: center;
+    padding: 0rem;
+    /* margin: 2rem; */
+    color: white;
+    font-weight: 400;
+    
+}
+
+/* Contact Us Contact Us      */ /* Contact Us Contact Us      *//* Contact Us Contact Us      */
+
+.hheadingabout{
+    font-size: 3rem;
+    padding: 14rem 8rem;
+    color: white;
+}
+
+/* formcontainer */
+
+.formcontainer{
+    border: 1px solid   rgb(147, 143, 143);
+    border-radius: 1rem;
+    width: 80%;
+    margin: 5rem auto;
+   padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formfields{
+    display: flex; 
+    flex-direction: column;
+    gap: 1rem;
+   
+    
+}
+
+.phone{
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    color: #003366;
+
+}
+
+.mail{
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    color: #003366;
+}
+
+.address{
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    color: #003366;
+    
+    
+
+}
+
+.address p{
+
+    width: 50%;
+    
+}
+
+input{
+    padding: 0.8rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+textarea{
+    height: 8rem;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.formbutton1{
+    background-color: #003366;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+}
+
+
+/* Aboutt Us Aboutt Us */ /* Aboutt Us Aboutt Us *//* Aboutt Us Aboutt Us */ /* Aboutt Us Aboutt Us */ /* Aboutt Us Aboutt Us */
+
+.numberabout{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #00336673;
+    background-color: #FF5003;
+    border-radius: 1rem;
+    width: 80%;
+    margin: 4rem auto;
+    position: absolute;
+    top: 72%;
+    left: 9%;
+
+
+}
+
+.fourdivsabout{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 3rem;
+    
+}
+
+.exabout{
+    border-right: 1px solid #ffffff;
+    padding: 0rem 2rem;
+    margin: 0.9rem 0 ;
+}
+
+.etabout{
+    /* scroll-padding-top: 1rem; */
+    /* background-color: red; */
+    margin: 1rem;
+
+}
+
+
+.hnabout{
+    color: #ffffff;
+}
+
+.hpabout{
+    color: #ffffff;
+}
+
+
+/* Our Principles */
+
+.principles{
+    margin: 8rem auto ;
+
+}
+
+.prheading{
+    color: #FF5003;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.pcards{
+    /* background-color: #003366; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0 4rem;
+}
+
+
+.card1{
+    background-color: #003366;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.cardh{
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+
+.pbtn{
+    
+    padding: 0.4rem;
+    background-color: #FF5003;
+    color: white;
+    outline: none;
+    border: 0px solid ;
+    margin: 0.5rem auto;
+    border-radius: 0.5rem;
+
+}
+
+
+.cardp{
+    text-align: center;
+}
